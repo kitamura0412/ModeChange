@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/id_frameLayout_mapscreen"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <fragment
+            android:id="@+id/id_fragment_mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <LinearLayout
+            android:id="@+id/id_linearLayout_search"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="56dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/id_imageview_search"
+                    style="@style/mapBackgroundStyle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/contentDescription_imageView_search"
+                    android:src="@drawable/search" />
+
+                <EditText
+                    android:id="@+id/id_editText_address"
+                    style="@style/mapBackgroundStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/hint_editText_address" />
+            </LinearLayout>
+            <!-- android:adjustViewBounds="true" 縦横比を維持 -->
+
+
+            <!-- 住所 -->
+
+            <LinearLayout
+                style="@style/mapBackgroundStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <!-- 現在地 住所表示 -->
+
+                <TextView
+                    android:id="@+id/id_textView_presentAdr"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <!-- 現在地を登録するボタン -->
+
+                <LinearLayout
+                    android:id="@+id/id_linearLayout_regAdr"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/id_imageView_regAdr"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/reg" />
+
+                    <TextView
+                        android:id="@+id/id_textView_regAdr"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/text_textView_regAdr" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- ヘッダー領域 -->
+
+    <include layout="@layout/header" />
+    <!-- 画面領域 -->
+    <!-- AdMob -->
+
+  <!--    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_unit_id"
+        ads:loadAdOnCreate="true"/>
+    <Button
+        android:id="@+id/id_button_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/text_button_mapView" />
+
+    <Button
+        android:id="@+id/temp1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ショートカット作成" />
+
+    <Button
+        android:id="@+id/temp2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="通常マナーに変更" />
+
+    <Button
+        android:id="@+id/temp4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="サイレントマナーに変更" />
+
+    <Button
+        android:id="@+id/temp5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="マナーモードOFF" /> 
+
+    <Button
+        android:id="@+id/temp6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ユーザが変更したモードを取得" />
+
+    <Button
+        android:id="@+id/temp7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="マナーモード変更を検知（サービス開始）" />
+
+    <Button
+        android:id="@+id/temp8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="マナーモード変更を検知（サービス終了）" />
+
+    <Button
+        android:id="@+id/temp9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SendBroadcastService開始" />
+
+    <Button
+        android:id="@+id/temp10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SendBroadcastService終了" />
+    -->
+
+    <Button
+        android:id="@+id/temp11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="アラーム起動1" />
+
+    <Button
+        android:id="@+id/temp12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="アラーム起動2" />
+        <Button
+        android:id="@+id/temp13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="タスクバー" />
+    <!-- フッダー領域 -->
+
+    <include layout="@layout/admob" />
+
+</LinearLayout>

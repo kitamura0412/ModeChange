@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\USER\60_android\05_workspace\Elephant\elephant\release\elephant.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2ce8dca80765403b435d3798c023f3f66cb3c0ed">
+        <dex dex="C:\Users\USER\60_android\05_workspace\ModeChange\app\build\intermediates\pre-dexed\debug\elephant-3ef3c344f2024cd59d588678eee2fe7093f3c6fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd">
+        <dex dex="C:\Users\USER\60_android\05_workspace\ModeChange\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-51904159b85cfd132bf7ecb6f5529a5cbb3985cc.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\60_android\05_workspace\ModeChange\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4">
+        <dex dex="C:\Users\USER\60_android\05_workspace\ModeChange\app\build\intermediates\pre-dexed\debug\classes-f7c6db960380672d1eb66ba1e360b00a0a891d15.jar" />
+    </item>
+
+</items>

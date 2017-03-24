@@ -1,0 +1,18 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="5px"
+        android:color="@color/color_main" />
+
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+
+    <corners android:radius="2dp" />
+
+    <solid
+        android:color="@color/color_sub2"><!-- 背景色の指定 @color/color_accent -->
+        </solid>
+</shape><!-- From: file:/C:/Users/USER/60_android/05_workspace/ModeChange/app/src/main/res/drawable/style_button.xml -->

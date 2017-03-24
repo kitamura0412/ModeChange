@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/info_reg.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/info_reg.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/info_reg.xml" />
+    </issue>
+    <issue id="MissingTranslation" severity="warning" />
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="UselessParent">
+        <ignore path="res/layout/info_reg.xml" />
+    </issue>
+</lint>

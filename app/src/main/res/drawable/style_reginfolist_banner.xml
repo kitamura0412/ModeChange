@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 枠線 -->
+    <syze android:height="50dp" />
+
+</shape>

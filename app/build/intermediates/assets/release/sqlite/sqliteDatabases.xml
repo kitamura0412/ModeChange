@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VERSION>4</VERSION>
+<NAME>ModeChange</NAME>
+
+<TABLE>
+    <NAME COPY="yes">REGINFO</NAME>
+    <COLUMN DATATYPE="TEXT" DATASIZE="10"   PRIMARYKEY="yes"                                    >NO</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="50"   PRIMARYKEY="no"                                     >REG_NAME</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="200"  PRIMARYKEY="no"     NOTNULL="yes"                 >ADDRESS</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="30"   PRIMARYKEY="no"     NOTNULL="yes"                 >LATITUDE</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="30"   PRIMARYKEY="no"     NOTNULL="yes"                 >LONGITUDE</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="1"    PRIMARYKEY="no"     NOTNULL="yes"                 >STATUS</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="1"    PRIMARYKEY="no"     NOTNULL="yes"   DEFAULT="0" >WIFI</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="1"    PRIMARYKEY="no"     NOTNULL="yes"                 >CHANGE_FLG</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="2"    PRIMARYKEY="no"                       DEFAULT="99">TIME1_FROM</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="2"    PRIMARYKEY="no"                       DEFAULT="99">TIME1_TO</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="2"    PRIMARYKEY="no"                       DEFAULT="99">TIME2_FROM</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="2"    PRIMARYKEY="no"                       DEFAULT="99">TIME2_TO</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="23"   PRIMARYKEY="no"     NOTNULL="yes"                 >REG_DT</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="23"   PRIMARYKEY="no"                                     >UPD_DT</COLUMN>
+</TABLE>
+<TABLE>
+    <NAME COPY="yes">APDATA</NAME>
+    <COLUMN DATATYPE="TEXT" DATASIZE="19"   PRIMARYKEY="yes"    NOTNULL="yes"               >ID</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="3"    PRIMARYKEY="no"     NOTNULL="yes"               >DATA</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="23"   PRIMARYKEY="no"     NOTNULL="yes"               >REG_DT</COLUMN>
+    <COLUMN DATATYPE="TEXT" DATASIZE="23"   PRIMARYKEY="no"                                   >UPD_DT</COLUMN>
+</TABLE>

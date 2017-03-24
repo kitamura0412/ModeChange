@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 地図検索画面 -->
+    <!-- 『検索』アイコンの幅 -->
+    <integer name="integer_imageview_search">40</integer>
+    <!-- LinearLayoutのパディング幅 -->
+    <integer name="integer_linearLayout_search">60</integer>
+</resources>

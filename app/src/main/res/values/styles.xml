@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="style_imageview_search">
+        <item name="android:layout_width">40dp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/color_main</item>
+        <item name="android:background">@color/color_background</item>
+    </style>
+
+    <style name="backgroundStyle">
+        <item name="android:background">@color/color_background</item>
+    </style>
+
+    <!-- 地図画面 UIの背景色 -->
+    <style name="mapBackgroundStyle">
+        <item name="android:background">@color/color_map_ui</item>
+    </style>
+    <!-- 帯 -->
+        <style name="belt">
+        <item name="android:textColor">@color/color_background</item>
+        <item name="android:background">@color/color_main</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+</resources>

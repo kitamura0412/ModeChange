@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="0dp"
+    android:orientation="vertical" >
+
+    <!-- 広告 -->
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        layout="@layout/admob" />
+
+    <!-- header領域 -->
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <!-- 画面領域 -->
+
+            <TextView
+                style="@style/belt"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="監視間隔を設定してください" />
+
+            <RadioGroup
+                android:id="@+id/id_radioGroup_setUpInterval"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/id_radioButton_setUpIntervalON"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:checked="true"
+                    android:text="監視ON" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="当アプリの機能を有効にします" />
+
+                <RadioButton
+                    android:id="@+id/id_radioButton_setUpIntervalOFF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="監視OFF" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="当アプリの機能を無効にします" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="監視間隔" />
+
+                <EditText
+                    android:id="@+id/id_editText_setUpInterval"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="分" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="10分以上で入力してください。" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/belt"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="デフォルトのマナーモードを設定してください" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="登録した場所以外の場所に居る時に設定するマナーモードを設定してください。" />
+
+            <RadioGroup
+                android:id="@+id/id_radioGroup_setUpDefault"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpVibrate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:checked="true"
+                    android:text="通常マナー" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="バイブレーションON, 着信音OFF の状態です" />
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpSilent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="サイレントマナー" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="バイブレーションOFF, 着信音OFFの状態です" />
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpNoemal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="OFF" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="バイブレーションON, 着信音ON の状態です" />
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpNone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="何もしない" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="マナーモードの変更を行わず、直前の変更をそのまま引き継ぎます" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/belt"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="デフォルトのWi-Fiを設定してください" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="登録した場所以外の場所に居る時に設定するWi-Fiのモードを設定してください。" />
+
+            <RadioGroup
+                android:id="@+id/id_radioGroup_setUpDefaultWiFi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpWiFiOn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:checked="true"
+                    android:text="ON" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Wi-FiをONの状態にします。" />
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpWiFiOff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="OFF" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Wi-FiをOFFの状態にします。" />
+
+                <RadioButton
+                    android:id="@+id/id_radioButtonp_setUpWiFiNone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="何もしない" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Wi-Fiの変更を行わず、直前の変更をそのまま引き継ぎます" />
+            </RadioGroup>
+            <!-- 『更新』ボタン -->
+
+            <Button
+                android:id="@+id/id_button_setUp"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/style_button"
+                android:text="@string/text_textview_upd" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/USER/60_android/05_workspace/ModeChange/app/src/main/res/layout/setup.xml -->

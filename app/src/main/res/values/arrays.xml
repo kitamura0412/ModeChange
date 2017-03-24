@@ -1,0 +1,162 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 時間選択スピナー -->
+    <string-array name="timeSpinnerItem99">
+        <item name="key">99</item>
+        <item name="value">指定なし</item>
+    </string-array>
+    <string-array name="timeSpinnerItem0">
+        <item name="key">0</item>
+        <item name="value">０時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem1">
+        <item name="key">1</item>
+        <item name="value">１時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem2">
+        <item name="key">2</item>
+        <item name="value">２時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem3">
+        <item name="key">3</item>
+        <item name="value">３時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem4">
+        <item name="key">4</item>
+        <item name="value">４時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem5">
+        <item name="key">5</item>
+        <item name="value">５時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem6">
+        <item name="key">6</item>
+        <item name="value">６時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem7">
+        <item name="key">7</item>
+        <item name="value">７時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem8">
+        <item name="key">8</item>
+        <item name="value">８時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem9">
+        <item name="key">9</item>
+        <item name="value">９時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem10">
+        <item name="key">10</item>
+        <item name="value">１０時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem11">
+        <item name="key">11</item>
+        <item name="value">１１時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem12">
+        <item name="key">12</item>
+        <item name="value">１２時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem13">
+        <item name="key">13</item>
+        <item name="value">１３時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem14">
+        <item name="key">14</item>
+        <item name="value">１４時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem15">
+        <item name="key">15</item>
+        <item name="value">１５時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem16">
+        <item name="key">16</item>
+        <item name="value">１６時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem17">
+        <item name="key">17</item>
+        <item name="value">１７時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem18">
+        <item name="key">18</item>
+        <item name="value">１８時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem19">
+        <item name="key">19</item>
+        <item name="value">１９時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem20">
+        <item name="key">20</item>
+        <item name="value">２０時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem21">
+        <item name="key">21</item>
+        <item name="value">２１時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem22">
+        <item name="key">22</item>
+        <item name="value">２２時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem23">
+        <item name="key">23</item>
+        <item name="value">２３時</item>
+    </string-array>
+    <string-array name="timeSpinnerItem24">
+        <item name="key">24</item>
+        <item name="value">２４時</item>
+    </string-array>
+    <array name="timeSpinnerFrom">
+        <item>@array/timeSpinnerItem99</item>
+        <item>@array/timeSpinnerItem0</item>
+        <item>@array/timeSpinnerItem1</item>
+        <item>@array/timeSpinnerItem2</item>
+        <item>@array/timeSpinnerItem3</item>
+        <item>@array/timeSpinnerItem4</item>
+        <item>@array/timeSpinnerItem5</item>
+        <item>@array/timeSpinnerItem6</item>
+        <item>@array/timeSpinnerItem7</item>
+        <item>@array/timeSpinnerItem8</item>
+        <item>@array/timeSpinnerItem9</item>
+        <item>@array/timeSpinnerItem10</item>
+        <item>@array/timeSpinnerItem11</item>
+        <item>@array/timeSpinnerItem12</item>
+        <item>@array/timeSpinnerItem13</item>
+        <item>@array/timeSpinnerItem14</item>
+        <item>@array/timeSpinnerItem15</item>
+        <item>@array/timeSpinnerItem16</item>
+        <item>@array/timeSpinnerItem17</item>
+        <item>@array/timeSpinnerItem18</item>
+        <item>@array/timeSpinnerItem19</item>
+        <item>@array/timeSpinnerItem20</item>
+        <item>@array/timeSpinnerItem21</item>
+        <item>@array/timeSpinnerItem22</item>
+        <item>@array/timeSpinnerItem23</item>
+    </array>
+    <array name="timeSpinnerTo">
+        <item>@array/timeSpinnerItem99</item>
+        <item>@array/timeSpinnerItem1</item>
+        <item>@array/timeSpinnerItem2</item>
+        <item>@array/timeSpinnerItem3</item>
+        <item>@array/timeSpinnerItem4</item>
+        <item>@array/timeSpinnerItem5</item>
+        <item>@array/timeSpinnerItem6</item>
+        <item>@array/timeSpinnerItem7</item>
+        <item>@array/timeSpinnerItem8</item>
+        <item>@array/timeSpinnerItem9</item>
+        <item>@array/timeSpinnerItem10</item>
+        <item>@array/timeSpinnerItem11</item>
+        <item>@array/timeSpinnerItem12</item>
+        <item>@array/timeSpinnerItem13</item>
+        <item>@array/timeSpinnerItem14</item>
+        <item>@array/timeSpinnerItem15</item>
+        <item>@array/timeSpinnerItem16</item>
+        <item>@array/timeSpinnerItem17</item>
+        <item>@array/timeSpinnerItem18</item>
+        <item>@array/timeSpinnerItem19</item>
+        <item>@array/timeSpinnerItem20</item>
+        <item>@array/timeSpinnerItem21</item>
+        <item>@array/timeSpinnerItem22</item>
+        <item>@array/timeSpinnerItem23</item>
+        <item>@array/timeSpinnerItem24</item>
+    </array>
+</resources>

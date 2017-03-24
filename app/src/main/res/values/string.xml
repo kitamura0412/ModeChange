@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- アプリケーション名 -->
+    <string name="app_name">Wi-Fi、マナーモードチェンジャー</string>
+
+    <!-- 画面 -->
+    <string name="text_textView_screenName_main">登録情報一覧</string>
+    <string name="text_textView_screenName_mapsearch">地図検索</string>
+    <string name="text_textView_screenName_addresssearch">住所検索</string>
+    <string name="text_textView_screenName_reg">登録</string>
+    <string name="text_textView_screenName_edit">編集</string>
+    <string name="text_textView_screenName_setup">設定</string>
+
+    <!-- ボタン名 -->
+    <string name="text_button_mapView">地図表示</string>
+    <string name="text_textview_reg">登録</string>
+    <string name="text_textview_upd">更新</string>
+    <!-- <string name="text_textView_rulesetup">設定</string> -->
+    <string name="text_textView_setup">設定</string>
+    <!-- <string name="text_textView_envsetup">環境設定</string> -->
+    <string name="text_textView_regAdr">この場所を登録する</string>
+    <!-- 入力ヒント -->
+    <string name="hint_editText_address">東京都千代田区千代田１−１</string>
+
+    <!-- 読み上げ機能 -->
+    <string name="contentDescription_imageView_search">検索</string>
+
+    <!-- ダイアログタイトル -->
+    <string name="alertdialog_title_001">登録方法選択</string>
+    <string name="alertdialog_title_002">確認</string>
+    <string name="alertdialog_title_003">評価</string>
+    <!-- メッセージ -->
+    <string name="alertdialog_message_001">登録方法を選択してください。</string>
+    <string name="alertdialog_message_002">当アプリは『Google Play開発者サービス』に依存します、\n『Google Play開発者サービス』をインストールしてご利用ください。</string>
+    <string name="alertdialog_message_003">当アプリは位置情報を利用します。位置情報の設定を有効にしてご利用ください。</string>
+    <string name="alertdialog_message_004">アプリの使い心地はいかがですか、宜しければ評価をお願いします。</string>
+    <string name="message_004">位置情報の設定がOFFです、位置情報が取得できませんでした。</string>
+    <string name="message_005">位置情報が取得できませんでした。</string>
+    <!-- ダイアログボタン -->
+    <string name="alertdialog_button_001">地図・住所から登録</string>
+    <string name="alertdialog_button_002">現在地から登録</string>
+    <string name="alertdialog_button_003">インストールする</string>
+    <string name="alertdialog_button_004">キャンセル</string>
+    <string name="alertdialog_button_005">設定</string>
+    <string name="alertdialog_button_006">今すぐ評価</string>
+    <string name="alertdialog_button_007">閉じる</string>
+    <!-- チェックボックスの値 -->
+    <string name="alertdialog_checkbox_001">次から表示しない</string>
+
+    <!-- インフォメーションメッセージ -->
+    <string name="message_001">現在GPSは無効に設定されています</string>
+    <string name="message_002">現在GPSは有効です</string>
+
+    <!-- AdMob unitId -->
+    <string name="admob_unit_id">ca-app-pub-7797662584508563/4625414735</string>
+
+</resources>

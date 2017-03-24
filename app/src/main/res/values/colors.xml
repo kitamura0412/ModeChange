@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- テーマカラー -->
+    <!-- 背景色 -->
+    <color name="color_background">#F0F8FF</color>
+    <!-- メインカラー(強い) -->
+    <!-- <color name="color_main">#1E90FF</color> -->
+    <color name="color_main">#0000FF</color>
+    <!-- サブカラー１ (弱い) -->
+    <color name="color_sub1">#00FFFF</color>
+    <!-- サブカラー２ (弱い) -->
+    <color name="color_sub2">#81F7BE</color>
+    <!-- サブカラー３(弱い) -->
+    <color name="color_sub3">#CEF6F5</color>
+    <!-- アクセントカラー(メインカラーと相対するもの) -->
+    <color name="color_accent">#FFFFFF</color>
+
+    <!-- 地図UI背景 -->
+    <color name="color_map_ui">#AAFFFFFF</color>
+    <!-- 一般カラー -->
+    <!-- 透明 -->
+    <color name="color_non">#00000000</color>
+
+</resources>

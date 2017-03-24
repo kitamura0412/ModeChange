@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 広告 -->
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        layout="@layout/admob" />
+
+    <!-- header領域 -->
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        layout="@layout/header" />
+
+    <!-- 画面領域 -->
+
+
+    <!-- 登録内容一覧 -->
+
+    <LinearLayout
+        android:id="@+id/id_linearLayout_regList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:divider="@color/color_sub1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_textView_regInfo"
+            style="@style/belt"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:divider="@color/color_sub1"
+            android:text="タップで編集できます" />
+
+        <ListView
+            android:id="@+id/id_listView_regList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/color_sub1"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_linearLayout_uninputtedInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:divider="@color/color_sub1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/id_imageview_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/backgroundStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/backgroundStyle"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <!-- 登録 -->
+
+            <LinearLayout
+                android:id="@+id/id_linearlayout_reg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/color_non"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/id_imageview_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/reg" />
+
+                <TextView
+                    android:id="@+id/id_textview_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text_textview_reg" />
+            </LinearLayout>
+
+            <!-- ルール設定 -->
+
+            <LinearLayout
+                android:id="@+id/id_linearlayout_setup"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/color_non"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/id_imageview_rulesetup"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/rulesetup" />
+
+                <TextView
+                    android:id="@+id/id_textview_rulesetup"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text_textView_setup" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
